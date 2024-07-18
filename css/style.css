@@ -1,0 +1,742 @@
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(17, 17, 17)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  border: none;
+  box-shadow: none;
+}
+.w-fit {
+  width: fit-content;
+}
+.nav-pills .nav-link.active {
+  background-color: transparent;
+}
+a {
+  text-decoration: none;
+}
+input,
+select,
+textarea {
+  color: rgb(52, 52, 52) !important;
+}
+textarea {
+  resize: none;
+  background-color: #f4f4f4;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+textarea:focus {
+  outline: none;
+}
+::placeholder {
+  font-family: "Poppins", sans-serif !important;
+  color: #888179 !important;
+  font-size: 14px !important;
+}
+#services {
+  background-color: #f7f7f7;
+}
+.main-title h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: rgba(52, 52, 52);
+  z-index: 4;
+}
+.main-title h3::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  height: 1.875rem;
+  top: 24px;
+  left: 0;
+  z-index: -1;
+}
+.home-caption .icons {
+  cursor: pointer;
+}
+nav {
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
+}
+nav .logo a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem !important;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: rgb(28, 28, 28) !important;
+}
+nav .nav-bar ul .nav-item a {
+  position: relative;
+  font-size: 0.875rem;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 1px !important;
+  color: rgb(17, 17, 17);
+}
+nav .nav-bar ul .item a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.1rem;
+  bottom: 0;
+  left: 0;
+  background: #222;
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-out;
+}
+nav .active::after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+}
+header .hero-img {
+  min-height: 100vh;
+  background-image: url(../imgs/bg.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0.9;
+}
+.home-caption h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3.125rem;
+}
+.home-caption p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+.home-caption p::after {
+  content: "";
+  margin-left: 0.6rem;
+  font-weight: 400;
+  animation: typing 6s steps(11) infinite;
+}
+.home-caption .icons .ico-bg {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 2.1875rem;
+  height: 2.1875rem;
+}
+#about .about-txt {
+  font-family: "Poppins", sans-serif;
+}
+#about .about-txt h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 1.875rem;
+  color: rgb(52, 52, 52);
+}
+#about .about-txt span {
+  letter-spacing: 2px;
+  color: rgb(153, 153, 153);
+  font-size: 0.875rem;
+}
+#about .about-txt p {
+  color: rgb(116, 129, 130);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+}
+#about .about-txt .progress {
+  height: 1.5rem;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+  margin-bottom: 1.875rem;
+  background-color: #f7f7f7;
+}
+#about .about-txt .progress-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8125rem;
+}
+#about .about-txt .web .progress-text::after {
+  content: "95%";
+  position: absolute;
+  right: 0.0625rem;
+  top: 0.0625rem;
+  font-size: 11px;
+  color: #fff;
+}
+#about .about-txt .branding .progress-text::after {
+  content: "80%";
+  position: absolute;
+  right: 0.0625rem;
+  top: 0.0625rem;
+  font-size: 11px;
+  color: #fff;
+}
+#about .about-txt .development .progress-text::after {
+  content: "90%";
+  position: absolute;
+  right: 0.0625rem;
+  top: 0.0625rem;
+  font-size: 11px;
+  color: #fff;
+}
+#about .buttons a {
+  font-size: 0.8125rem;
+  color: rgb(52, 52, 52);
+  padding: 10px 30px;
+  transition: all 0.3s ease-in-out;
+}
+#about .buttons .download {
+  color: #eee;
+}
+#about .buttons .download:hover {
+  background-color: transparent !important;
+  color: rgb(52, 52, 52);
+}
+#about .buttons .contact:hover {
+  background-color: #000;
+  color: #eee;
+}
+#about .about-img::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  bottom: -30px;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  width: 80%;
+  height: 80%;
+  z-index: -1;
+}
+#services .icon {
+  font-size: 30px;
+  background-color: #f4f4f4;
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+#services p {
+  word-spacing: 2px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #748182;
+  font-family: "Poppins", sans-serif;
+}
+#services .card {
+  padding: 50px 20px;
+  box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+}
+#services .card:hover .icon {
+  background-color: #000;
+  color: white;
+}
+#services h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: rgb(52, 52, 52);
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+}
+#portfolio .tabs ul li a {
+  color: rgb(34, 34, 34);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  position: relative;
+  padding: 0px;
+  margin: 0px 17px 30px 17px;
+}
+#portfolio .tabs ul li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2.5px;
+  top: 25px;
+  left: 0;
+  background: rgb(34, 34, 34);
+  transition: transform 0.3s ease-out;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+}
+#portfolio .tabs .active::after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+}
+#portfolio .sub-img .white-bg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.95);
+  transition: all 0.5s ease-in-out;
+  transform: translateY(10px);
+  opacity: 0;
+  z-index: 2;
+}
+#portfolio .txt-align {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+#portfolio .txt-align h6 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(52, 52, 52);
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 2px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-15px);
+}
+#portfolio .sub-img:hover .white-bg {
+  transform: translateY(0);
+  opacity: 1;
+}
+#portfolio .sub-img:hover .txt-align h6 {
+  transform: translateY(0);
+}
+#portfolio .icons .icon {
+  background-color: #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #111;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+#portfolio .icons .icon:hover {
+  background-color: transparent;
+}
+#portfolio .icons .icon:hover a {
+  color: #000 !important;
+}
+#testimonials {
+  background-color: #f7f7f7;
+}
+#testimonials .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: #cbc6c6;
+}
+.carousel .carousel-indicators .active {
+  background-color: #77978c !important;
+}
+#testimonials img {
+  width: 90px;
+  height: 90px;
+}
+#testimonials p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  color: rgb(116, 129, 130);
+  word-spacing: 2px;
+}
+#testimonials .sub-txt p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  color: rgb(136, 136, 136);
+}
+#testimonials .sub-txt h6 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(52, 52, 52);
+}
+#numbers .fa {
+  font-size: 1.875rem;
+}
+#numbers .num {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 900;
+  color: rgb(52, 52, 52);
+}
+#numbers .subt {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  color: rgb(116, 129, 130);
+}
+#team {
+  background-color: #f7f7f7;
+}
+#team .card-body {
+  background-color: #5b5b5b;
+  font-family: "Montserrat", sans-serif;
+  padding: 1.5625rem;
+}
+#team .card-body h4 {
+  font-size: 1.5625rem;
+  line-height: 1.75rem;
+}
+#team .img-bg {
+  cursor: pointer;
+}
+#team .img-bg img {
+  transition: all 0.4s ease-in-out;
+}
+#team .img-bg:hover img {
+  transform: scale(1.2);
+}
+#team .links {
+  background-color: rgba(255, 255, 255, 0.9);
+  inset: 0.3125rem;
+  transition: all 0.5s ease-in-out;
+  transform: rotateY(180deg) scale(0.5);
+  opacity: 0;
+}
+#team .links a {
+  font-size: 1.25rem;
+  color: white;
+  line-height: 2.5rem;
+  transition: all 0.1s ease-in-out;
+}
+#team .links .icon-bg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #000;
+  border: 1px solid #000;
+  margin: 0px 7px;
+  transition: all 0.2s ease-in-out;
+}
+#team .links .icon-bg:hover {
+  background-color: transparent;
+}
+#team .links .icon-bg:hover a {
+  color: #000;
+}
+#team .card:hover .links {
+  transform: rotateY(0deg) scale(1);
+  opacity: 1;
+}
+#contact .icon-bg {
+  width: 60px;
+  height: 60px;
+  background-color: #f4f4f4;
+  font-size: 1.5625rem;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+#contact .bg h6 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(52, 52, 52);
+}
+#contact .bg p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(116, 129, 130);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+}
+#contact .bg:hover .icon-bg {
+  background-color: #000;
+  color: #fff;
+}
+#contact form input {
+  background-color: #f4f4f4;
+  border: none;
+}
+#contact form input:focus {
+  box-shadow: none;
+}
+#contact button {
+  padding: 10px 40px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(52, 52, 52);
+  font-size: 13px;
+  transition: 0.3s ease-in-out;
+}
+#contact button:hover {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+footer {
+  background-color: #1c1c1c;
+}
+footer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: rgb(116, 129, 130);
+  word-spacing: 2px;
+}
+/*animations*/
+@keyframes typing {
+  0% {
+    content: "|";
+  }
+  1% {
+    content: "L|";
+  }
+  2% {
+    content: "La|";
+  }
+  3% {
+    content: "Lar|";
+  }
+  4% {
+    content: "Larr|";
+  }
+  5% {
+    content: "Larry|";
+  }
+  6% {
+    content: "Larry |";
+  }
+  7% {
+    content: "Larry D|";
+  }
+  8% {
+    content: "Larry Da|";
+  }
+  9% {
+    content: "Larry Dan|";
+  }
+  10% {
+    content: "Larry Dani|";
+  }
+  11% {
+    content: "Larry Danie|";
+  }
+  12% {
+    content: "Larry Daniel|";
+  }
+  13% {
+    content: "Larry Daniels|";
+  }
+  14% {
+    content: "Larry Daniels|";
+  }
+  15% {
+    content: "Larry Daniels|";
+  }
+  16% {
+    content: "Larry Daniels|";
+  }
+  17% {
+    content: "Larry Daniels|";
+  }
+  18% {
+    content: "Larry Daniels|";
+  }
+  19% {
+    content: "Larry Daniels|";
+  }
+  20% {
+    content: "Larry Daniels|";
+  }
+  21% {
+    content: "Larry Daniels|";
+  }
+  23% {
+    content: "Larry Daniel|";
+  }
+  24% {
+    content: "Larry Danie|";
+  }
+  25% {
+    content: "Larry Dani|";
+  }
+  26% {
+    content: "Larry Dan|";
+  }
+  27% {
+    content: "Larry Da|";
+  }
+  28% {
+    content: "Larry D|";
+  }
+  29% {
+    content: "Larry |";
+  }
+  30% {
+    content: "Larry|";
+  }
+  31% {
+    content: "Larr|";
+  }
+  32% {
+    content: "Lar|";
+  }
+  33% {
+    content: "La|";
+  }
+  34% {
+    content: "L|";
+  }
+  35% {
+    content: "|";
+  }
+  37% {
+    content: "D|";
+  }
+  38% {
+    content: "De|";
+  }
+  39% {
+    content: "Dev|";
+  }
+  40% {
+    content: "Deve|";
+  }
+  41% {
+    content: "Devel|";
+  }
+  42% {
+    content: "Develo|";
+  }
+  43% {
+    content: "Develop|";
+  }
+  44% {
+    content: "Develope|";
+  }
+  45% {
+    content: "Developer|";
+  }
+  46% {
+    content: "Developer|";
+  }
+  47% {
+    content: "Developer|";
+  }
+  48% {
+    content: "Developer|";
+  }
+  49% {
+    content: "Developer|";
+  }
+  50% {
+    content: "Developer|";
+  }
+  51% {
+    content: "Developer|";
+  }
+  52% {
+    content: "Developer|";
+  }
+  53% {
+    content: "Developer|";
+  }
+  54% {
+    content: "Developer|";
+  }
+  55% {
+    content: "Developer|";
+  }
+  56% {
+    content: "Developer|";
+  }
+  60% {
+    content: "Develope|";
+  }
+  61% {
+    content: "Develop|";
+  }
+  62% {
+    content: "Develo|";
+  }
+  63% {
+    content: "Devel|";
+  }
+  64% {
+    content: "Deve|";
+  }
+  65% {
+    content: "Dev|";
+  }
+  66% {
+    content: "De|";
+  }
+  67% {
+    content: "D|";
+  }
+  68% {
+    content: "|";
+  }
+  70% {
+    content: "D|";
+  }
+  71% {
+    content: "De|";
+  }
+  72% {
+    content: "Des|";
+  }
+  73% {
+    content: "Desi|";
+  }
+  74% {
+    content: "Desig|";
+  }
+  75% {
+    content: "Design|";
+  }
+  76% {
+    content: "Designe|";
+  }
+  77% {
+    content: "Designer|";
+  }
+  78% {
+    content: "Designer|";
+  }
+  79% {
+    content: "Designer|";
+  }
+  80% {
+    content: "Designer|";
+  }
+  81% {
+    content: "Designer|";
+  }
+  82% {
+    content: "Designer|";
+  }
+  84% {
+    content: "Designer|";
+  }
+  85% {
+    content: "Designer|";
+  }
+  86% {
+    content: "Designer|";
+  }
+  87% {
+    content: "Designer|";
+  }
+  87% {
+    content: "Designer|";
+  }
+  88% {
+    content: "Designer|";
+  }
+  89% {
+    content: "Designer|";
+  }
+  93% {
+    content: "Designe|";
+  }
+  94% {
+    content: "Design|";
+  }
+  95% {
+    content: "Desig|";
+  }
+  96% {
+    content: "Desi|";
+  }
+  97% {
+    content: "Des|";
+  }
+  98% {
+    content: "De|";
+  }
+  99% {
+    content: "D|";
+  }
+  100% {
+    content: "|";
+  }
+}
